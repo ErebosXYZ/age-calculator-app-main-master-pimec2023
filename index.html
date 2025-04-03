@@ -30,20 +30,20 @@
       <div class="calculator__user-input">
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Day</p>
-          <input class="input-blok__input input-days" type="number" placeholder="DD" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <input id="day" class="input-blok__input input-days" type="number" placeholder="DD" min="1" max="31">
+          <p id="day-error" class="input-blok__text-error">text error</p>
         </div>
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Month</p>
-          <input class="input-blok__input input-months" type="number" placeholder="MM" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <input id="month" class="input-blok__input input-months" type="number" placeholder="MM" min="1" max="12">
+          <p id="month-error"class="input-blok__text-error">text error</p>
         </div>
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Year</p>
-          <input class="input-blok__input input-years" type="number" placeholder="YYYY" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <input id="year" class="input-blok__input input-years" type="number" placeholder="YYYY" min="100" max="2025">
+          <p id="year error" class="input-blok__text-error">text error</p>
         </div>
-        <button class="calculator__user-input-btn"></button>
+        <button id="btn" class="calculator__user-input-btn"></button>
       </div>
       <div class="calculator__output output">
         <div class="output__text output-years"><span>- -</span>years</div>

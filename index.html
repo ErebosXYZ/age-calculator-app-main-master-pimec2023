@@ -41,14 +41,14 @@
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Year</p>
           <input id="year" class="input-blok__input input-years" type="number" placeholder="YYYY" min="100" max="2025">
-          <p id="year error" class="input-blok__text-error">text error</p>
+          <p id="year-error" class="input-blok__text-error">text error</p>
         </div>
         <button id="btn" class="calculator__user-input-btn"></button>
       </div>
       <div class="calculator__output output">
-        <div class="output__text output-years"><span>- -</span>years</div>
-        <div class="output__text output-months"><span>- -</span>months</div>
-        <div class="output__text output-days"><span>- -</span>days</div>
+        <div class="output__text output-years"><span id="years-result">- -</span>years</div>
+        <div class="output__text output-months"><span id="months-result">- -</span>months</div>
+        <div class="output__text output-days"><span id="days-result">- -</span>days</div>
       </div>
     </div>
   </main>
